@@ -7,7 +7,7 @@
 This is the associated code to the research paper "ASHRAE Great Energy Predictor III". To replicate this make sure you install all the necessary dependencies through conda with
 
 ```
-conda env create -f ashrae.yml
+conda env create -f environment.yml
 ```
 
 Then download the dataset from Kaggle with [this link](https://www.kaggle.com/c/ashrae-energy-prediction/data). Adjust the path to the data in the notebooks `01 Data Understanding.ipynb` and `02 Modeling.ipynb` as well as `ashrae_dashboard.py` if you are running the web application.
